@@ -93,7 +93,7 @@ function tapLove(id) {
       if (!loveMsg) return console.error('Không tìm thấy element loveMsg!');
 
       typeWriterEffect(
-        `Gud Morninggggggg, chúc bé ${userName} của anh có ngày quốc tế thiếu nhi lần thứ XVIII sẽ thật dễ thươnggg, thật vuii vẻ, , thật trọn vẹnnn. Mong Em sẽ/phải lun lun dễ thươnggg như mọi ngày (cái j quan trọng nói lần 2) và mãi là ebe của anh nhaaaa. Iu emmmm💘`,
+        `Gud Morninggggggg, chúc bé ${userName} của anh có ngày quốc tế thiếu nhi lần thứ XVIII sẽ thật dễ thươnggg, thật vuii vẻ, thật trọn vẹnnn. Mong Em sẽ/phải lun lun dễ thươnggg như mọi ngày (cái j quan trọng nói lần 2) và mãi là ebe của anh nhaaaa. Iu emmmm💘`,
         'loveMsg',
         () => {
           const fromTag = document.createElement("div");
